@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'switch';
+  title = 'HostListner';
+
+  active: boolean=false;
+
+
+  display: boolean=false;
+
+  occupation:string='teacher';
+
+  DisplayNotice(){
+    this.display=true;
+  }
 }
